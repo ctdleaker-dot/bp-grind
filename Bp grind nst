@@ -1,0 +1,80 @@
+local TDS = loadstring(game:HttpGet("https://jnkie.com/loaders/getaether"))() or shared.TDSTable
+
+TDS:Loadout("Assassin", "Freezer", "Turret", "Commander", "None")
+TDS:Mode("Act1")
+TDS:GameInfo("Sorrowful Remains", {})
+
+TDS:Place("Assassin", 29.83365821838379, 2.0009982585906982, 199.26776123046875)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1, 9)
+
+-- [ Wave 2 ] --
+TDS:Place("Assassin", 27.793659210205078, 2.0009982585906982, 199.26776123046875)
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", 26.072954177856445, 2.0009984970092773, 198.15750122070312)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Assassin", 27.889930725097656, 2.0009987354278564, 197.23004150390625)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("Freezer", 12.863354682922363, 2.0431411266326904, 197.19708251953125)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Freezer", 12.771376609802246, 2.085737705230713, 200.23568725585938)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Freezer", 9.824028015136719, 2.092313528060913, 197.26107788085938)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Freezer", 15.897420883178711, 2.062537908554077, 197.3868865966797)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Turret", 9.270040512084961, 2.0093834400177, 200.75746154785156)
+TDS:VoteSkip(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Place("Commander", 8.837499618530273, 2.0201632976531982, 204.2372283935547)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Commander", 5.802591800689697, 2.0136196613311768, 204.0613555908203)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Commander", 5.734222412109375, 2.000998020172119, 200.92947387695312)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 15 ] --
+TDS:Place("Turret", 6.28663444519043, 2.0009984970092773, 197.3968963623047)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Turret", 6.365253448486328, 2.0253615379333496, 207.5563507080078)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(9)
+TDS:VoteSkip(15)
