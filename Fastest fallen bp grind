@@ -9,7 +9,7 @@ TDS:Upgrade(1)
 TDS:Ready()
 
 -- [ Wave 2 ] --
-TDS:VoteSkip(2, 37)
+TDS:VoteSkip(2, 34)
 TDS:Place("Assassin", -3.9163999557495117, 0.9999992847442627, -23.1416015625)
 
 -- [ Wave 3 ] --
