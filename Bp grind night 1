@@ -1,4 +1,4 @@
-local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
 
 TDS:Loadout("Assassin", "Freezer", "Gatling Gun", "None", "None")
 TDS:Mode("Act1")
