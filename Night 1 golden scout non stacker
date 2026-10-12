@@ -1,0 +1,112 @@
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Scout", "None", "None", "None", "None")
+TDS:Mode("Act1")
+TDS:GameInfo("Sorrowful Remains", {})
+
+TDS:Place("Scout", 12.693572998046875, 2.0457518100738525, 196.8812255859375)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", 9.653965950012207, 2.081413984298706, 196.8323211669922)
+TDS:Upgrade(2)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Place("Scout", 15.72552490234375, 2.093212127685547, 197.10223388671875)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", 9.486520767211914, 2.044922351837158, 199.86770629882812)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Place("Scout", 12.526127815246582, 2.0684235095977783, 199.91661071777344)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Scout", 15.558083534240723, 2.003124475479126, 200.1376190185547)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Scout", 9.538933753967285, 2.0009992122650146, 193.79449462890625)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Scout", 12.566205978393555, 2.0190622806549072, 193.8439483642578)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Scout", 15.598165512084961, 2.0009992122650146, 194.0648956298828)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(4)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+
+-- [ Wave 11 ] --
+TDS:Place("Scout", 6.447397708892822, 2.0009982585906982, 199.94073486328125)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 12 ] --
+TDS:Place("Scout", 6.608802795410156, 2.0009987354278564, 196.905029296875)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", 6.51760721206665, 2.0009992122650146, 193.6615753173828)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(9)
+TDS:Place("Scout", 5.234049320220947, 2.0124099254608154, 203.84326171875)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Scout", -0.6692755222320557, 2.0027713775634766, 201.3692169189453)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Scout", -0.44752395153045654, 2.0045340061187744, 205.22506713867188)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:VoteSkip(15)
