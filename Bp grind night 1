@@ -1,0 +1,75 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Assassin", "Freezer", "Gatling Gun", "None", "None")
+TDS:Mode("Act1")
+TDS:GameInfo("Sorrowful Remains", {})
+
+TDS:Place("Assassin", 29.376964569091797, 2.0009982585906982, 199.23980712890625)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Place("Assassin", 29.478515625, 2.000997543334961, 204.33963012695312)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Assassin", 27.336963653564453, 2.0009982585906982, 199.23980712890625)
+TDS:Upgrade(3)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+TDS:Place("Assassin", 27.438514709472656, 2.000997543334961, 204.33963012695312)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Place("Freezer", 12.824785232543945, 2.0456650257110596, 196.9627685546875)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Freezer", 12.409355163574219, 2.0290534496307373, 193.9513397216797)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 6 ] --
+TDS:Place("Freezer", 10.016191482543945, 2.029040575027466, 195.79940795898438)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Freezer", 15.217948913574219, 2.0009989738464355, 195.1147003173828)
+TDS:Upgrade(8)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", 5.135637283325195, 2.000998020172119, 201.514892578125)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 10 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(5)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:VoteSkip(15)
