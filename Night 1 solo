@@ -1,0 +1,91 @@
+-- [ Settings ] --
+getgenv().AutoGatling = true
+getgenv().AutoPickups = true
+-- [ End Settings ] --
+
+local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
+
+TDS:Loadout("Gatling Gun", "Scout", "None", "None", "None")
+TDS:Mode("Act2")
+TDS:GameInfo("Nightmare Flash", {})
+
+TDS:Place("Scout", 3.6660494804382324, 47.70576095581055, 6.162690162658691)
+TDS:Place("Scout", 0.8574557304382324, 47.68804931640625, 4.999332427978516)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Place("Scout", 6.642669677734375, 47.73670196533203, 5.5909247398376465)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:VoteSkip(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 4 ] --
+TDS:Place("Scout", -0.30590200424194336, 47.943443298339844, 2.1907386779785156)
+TDS:Upgrade(4)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 10 ] --
+TDS:Place("Gatling Gun", 5.976612091064453, 47.69355010986328, -10.928394317626953)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+
+-- [ Wave 17 ] --
+TDS:Place("Scout", 8.055886268615723, 48.1984977722168, 2.667919158935547)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Place("Scout", 8.87624454498291, 48.0631103515625, -0.33399128913879395)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Scout", -0.9182024002075195, 48.00852584838867, -0.7509111166000366)
+TDS:Upgrade(8)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:VoteSkip(20)
