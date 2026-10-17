@@ -7,6 +7,7 @@ local TDS = loadstring(game:HttpGet("https://getaether.cc/loader.lua"))()
 
 TDS:Loadout("Gatling Gun", "Scout", "None", "None", "None")
 TDS:Mode("Act2")
+TDS:GameInfo("Nightmare Flash", {})
 
 TDS:Place("Scout", 3.6660494804382324, 47.70576095581055, 6.162690162658691)
 TDS:Place("Scout", 0.8574557304382324, 47.68804931640625, 4.999332427978516)
